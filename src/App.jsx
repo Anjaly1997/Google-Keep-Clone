@@ -12,6 +12,8 @@ const App = () => {
       return[...prevNotes,newNote]
     });
   }
+
+// deleting note from array
 function deleteNotes(id){
   setNotes((prevNotes)=>{
     return prevNotes.filter((item,index)=>{
